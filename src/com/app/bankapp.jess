@@ -1,0 +1,11 @@
+
+
+(defrule amount-greater-than-50000
+    (amount ?a&:(> ?a 50000))
+    =>
+    (printout t "Amount greater than 50000" crlf)
+    
+
+)
+
+(run)
